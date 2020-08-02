@@ -24,7 +24,7 @@ class App extends Component {
     )
      )
   }
-  // toggle complete
+  // toggle completes
   markComplete = id => {
     this.setState({
       todos: this.state.todos.map(todo => {
@@ -35,7 +35,7 @@ class App extends Component {
       })
     });
   };
-  // Add Todo
+  // Add Todos
   AddTodo = kegiatan => {
     axios
     .post("https://hidden-wildwood-56815.herokuapp.com/todos", {
